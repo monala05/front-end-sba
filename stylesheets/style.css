@@ -1,3 +1,129 @@
-h1{
-    color: aqua;
+/*First css selector*/
+
+html, body{
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar{
+    display: flex;
+    border: solid;
+    justify-content: space-between;
+    height: 15%;
+    position: relative;
+}
+
+#nav-links{
+    display: flex;
+    border:solid;
+    height: 100%;
+    width: 30%;
+}
+
+#identifiers{
+    display: flex;
+    border: solid;
+    width: 30%;
+    height: 100%;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    border: solid;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#main-body{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(118, 118, 145);
+}
+
+#popular-games{
+    margin-top: 40px;
+    position: relative;
+    border: solid;
+    width: 70%;
+}
+
+#current-pop-games{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#review-table{
+    display: flex;
+    border: solid;
+    position: relative;
+    width: 60%;
+    margin-top: 70px;
+}
+
+#game-demos{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    align-items: center;
+    width: 60%;
+    margin-top: 60px;
+}
+
+#demo-title{
+    border: solid;
+    width: 80%;
+}
+
+#gifs{
+
+}
+/* second css selector*/
+div > ul{
+    display: flex;
+    border: solid;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Third css selector*/
+.nav-style{
+    background-color: rgb(148, 165, 159);
+}
+
+/*Fourth css selector*/
+.nav-style input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    width: 280px;
+  }
+
+
+.vertical-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-flex{
+    display:flex;
+}
+
+.horizontal-flex.center-game-title{
+    margin-top: 20px;
+    justify-content: center;
 }
