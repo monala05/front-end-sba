@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+#nav-bar{
+    display: flex;
+    border: solid;
+    justify-content: space-between;
+}
+
+#nav-links{
+    display: flex;
+    width: 30%;
+}
+
+#identifiers{
+    display: flex;
+    border: solid;
+    width: 30%;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    border: solid;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#main-body{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    background-color: rgb(65, 65, 70);
+}
+
+#profile-card{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+#review-table{
+    display: inline;
+    width: 70%;
+}
+
+div > ul{
+    display: flex;
+    border: solid;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-style{
+    background-color: rgb(38, 38, 41);
+    color: rgb(238, 238, 238);
+}
+
+.nav-style input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    width: 280px;
+  }
+
+
+.vertical-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    border: solid;
+}
+
+.thumbnail{
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+}
+.score-container{
+    display: flex; 
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    display: flex;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 99, 71);
+}
